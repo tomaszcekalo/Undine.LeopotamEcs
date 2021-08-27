@@ -8,4 +8,8 @@
     <PackageReference Include="Undine.Core" Version="0.0.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Leopotam.Ecs\Leopotam.Ecs.csproj" />
+  </ItemGroup>
+
 </Project>
