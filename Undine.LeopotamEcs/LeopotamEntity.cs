@@ -16,10 +16,10 @@ namespace Undine.LeopotamEcs
             _entity.Replace(component);
         }
 
-        public A GetComponent<A>()
+        public ref A GetComponent<A>()
             where A : struct
         {
-            return _entity.Get<A>();
+            return ref _entity.Get<A>();
         }
     }
 }
