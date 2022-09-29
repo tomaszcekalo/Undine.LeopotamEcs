@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -7,15 +7,12 @@
     <RepositoryUrl>https://github.com/tomaszcekalo/Undine.LeopotamEcs</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>0.0.0.2</Version>
+    <Version>0.0.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Leopotam.Ecs" Version="1.0.0" />
     <PackageReference Include="Undine.Core" Version="0.0.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Leopotam.Ecs\Leopotam.Ecs.csproj" />
   </ItemGroup>
 
 </Project>
